@@ -14,7 +14,7 @@ from   target import Target
 
 
 
-STM32F4_target = Target( )
+STM32F4 = Target( )
 STM32F4.flash( 'App_Example.hex',
                 'STM32F429.jflash')
 STM32F4.GDB().run_server()
